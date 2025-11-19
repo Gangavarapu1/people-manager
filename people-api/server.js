@@ -39,5 +39,5 @@ app.delete('/people/:id', (req, res) => {
   res.json({ success: true });
 });
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log('Mock API listening on http://localhost:' + port));
