@@ -1,0 +1,5 @@
+form div{margin-bottom:8px}
+label{display:block;font-weight:600}
+input{width:100%;padding:6px}
+button{margin-right:8px;padding:6px 10px}
+.error{color:#b00020;margin-bottom:8px}

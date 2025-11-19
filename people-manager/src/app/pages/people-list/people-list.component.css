@@ -1,0 +1,4 @@
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border:1px solid #ddd;padding:8px;text-align:left}
+button{margin-right:6px;padding:6px 10px}
+.error{color:#b00020;margin-bottom:8px}

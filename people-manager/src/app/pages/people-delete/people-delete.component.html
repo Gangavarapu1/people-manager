@@ -1,0 +1,10 @@
+<div>
+  <div *ngIf="loading">Loading...</div>
+  <div *ngIf="error" class="error">{{error}}</div>
+  <div *ngIf="person && !loading">
+    <p>Are you sure you want to delete:</p>
+    <p><strong>{{person.firstName}} {{person.lastName}}</strong></p>
+    <button (click)="confirm()">Yes, delete</button>
+    <button (click)="cancel()">Cancel</button>
+  </div>
+</div>
